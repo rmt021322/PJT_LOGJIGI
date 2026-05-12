@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <title>로그지기</title>
+
+    <link rel="stylesheet"
+          href="{{ url_for('static', filename='style.css') }}">
+    
+    
+
+</head>
+
+<body>
+
+
+    
+
+    <div class="container">
+
+        <div class="top-area">
+            <img
+                id="character"
+                src="{{ url_for('static', filename='character/hello.png') }}"
+            >
+
+            <div class="saybox-wrap">
+                <img
+                    class="saybox-img"
+                    src="{{ url_for('static', filename='character/saybox.png') }}"
+                >
+                <p id="sayText">무엇을 도와드릴까요?</p>
+            </div>
+        </div>
+
+        <h1 id="mainTitle">로그지기가 도착했습니다!</h1>
+
+
+
+        <div id="resultBox"></div> 
+
+        <div class="input-area">
+            <div class="talkingbox-wrap">
+                <img
+                    class="talkingbox-img"
+                    src="{{ url_for('static', filename='character/talkingbox.png') }}"
+                >
+
+                <input
+                    id="userInput"
+                    type="text"
+                    placeholder="로그지기에게 물어보기"
+                >
+            </div>
+
+
+
+            <button id="sendBtn" onclick="sendMessage()">보내기</button>
+        </div>
+                <div class="button-area">
+            <button onclick="blogSearch('{{ url_for('static', filename='character/findinglogs.png') }}')">블로그 탐색</button>
+            <button onclick="webSearch('{{ url_for('static', filename='character/findingweb.png') }}')">웹 탐색</button>
+            <button onclick="recommendPost('{{ url_for('static', filename='character/recommending.png') }}')">추천 받기</button>
+        </div>
+
+    </div>
+
+    <script src="{{ url_for('static', filename='script.js') }}"></script>
+
+</body>
+
+</html>
