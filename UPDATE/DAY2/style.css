@@ -1,0 +1,157 @@
+body {
+    margin: 0;
+    padding: 0;
+
+    background-color: white;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    min-height: 100vh;
+}
+
+.container {
+    text-align: center;
+}
+
+/* 캐릭터 + 말풍선 */
+
+.top-area {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    gap: 24px;
+
+    flex-wrap: wrap;
+}
+
+#character {
+    width: 220px;
+    height: 220px;
+
+    object-fit: contain;
+}
+
+/* 말풍선 */
+
+.saybox-wrap {
+    position: relative;
+
+    width: 320px;
+}
+
+.saybox-img {
+    width: 100%;
+
+    display: block;
+}
+
+#sayText {
+    position: absolute;
+
+    top: 45%;
+    left: 54%;
+
+    transform: translate(-50%, -50%);
+
+    width: 72%;
+
+    text-align: center;
+
+    margin: 0;
+
+    font-size: 16px;
+}
+
+/* 버튼 */
+
+button {
+    margin: 5px;
+    padding: 10px 16px;
+
+    border-radius: 10px;
+    border: 1px solid black;
+
+    background-color: white;
+
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #f0f0f0;
+}
+
+/* 입력창 */
+
+.input-area {
+    display: flex;
+
+    align-items: center;
+    justify-content: center;
+
+    gap: 2px;
+
+    margin-top: 28px;
+
+    flex-wrap: wrap;
+}
+
+.talkingbox-wrap {
+    position: relative;
+
+    width: 420px;
+    max-width: 80vw;
+}
+
+.talkingbox-img {
+    width: 100%;
+
+    display: block;
+}
+
+#userInput {
+    position: absolute;
+
+    top: 50%;
+    left: 20%;
+
+    transform: translateY(-50%);
+
+    width: 68%;
+    height: 36px;
+
+    border: none;
+    outline: none;
+
+    background: transparent;
+
+    font-size: 14px;
+}
+
+#sendBtn {
+    height: 70px;
+}
+
+/* 반응형 */
+
+@media (max-width: 600px) {
+
+    #character {
+        width: 160px;
+        height: 160px;
+    }
+
+    .saybox-wrap {
+        width: 260px;
+    }
+
+    .talkingbox-wrap {
+        width: 300px;
+    }
+
+    h1 {
+        font-size: 24px;
+    }
+}
