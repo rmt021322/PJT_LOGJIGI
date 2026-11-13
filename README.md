@@ -5,11 +5,11 @@
 현재는 로컬 환경에서 실행하는 프로토타입이며, 외부 웹 검색 기능은 준비 중입니다.  
 
 ## 실행 화면
-<img width="453" height="439" alt="HOME" src="https://github.com/user-attachments/assets/44e3e9cb-4519-4d53-9e88-5d656175356c" />
+<img width="452" height="439" alt="HOME" src="https://github.com/user-attachments/assets/44e3e9cb-4519-4d53-9e88-5d656175356c" />
 <img width="453" height="439" alt="choice" src="https://github.com/user-attachments/assets/5c3ccd22-cab4-4cfd-a11d-df3060c38d98" />
-<img width="453" height="439" alt="blogsearch" src="https://github.com/user-attachments/assets/b7ed8aaf-994e-431b-a000-1501960b89cf" />
+<img width="452" height="439" alt="blogsearch" src="https://github.com/user-attachments/assets/b7ed8aaf-994e-431b-a000-1501960b89cf" />
 <img width="453" height="439" alt="blogsearch_result" src="https://github.com/user-attachments/assets/9d6e3df6-26d9-4ed4-a2da-ecc7d0c1c354" />
-<img width="453" height="439" alt="websearch" src="https://github.com/user-attachments/assets/c2bf4f9e-4102-4d62-bd8f-7be81b1ec9c1" />
+<img width="452" height="439" alt="websearch" src="https://github.com/user-attachments/assets/c2bf4f9e-4102-4d62-bd8f-7be81b1ec9c1" />
 
 ※ 위 실행 화면은 제작자 본인의 네이버 블로그 공개글을 활용한 시연입니다.
 
