@@ -5,10 +5,8 @@ MAX_KEYWORDS = 5
 _tokenizer = None
 _tokenizer_lock = threading.Lock()
 
-STOP = set('그리고 그래서 하지만 오늘 이번 정말 너무 그냥 조금 이제 있는 없는 있어 있다 같다 같이 저는 제가 나는 내가 우리 여러분 이야기 기록 블로그 포스팅 사진 경우 정도 생각 때문에 위해 위한 대해 대한 관한 통해 이렇게 그렇게 저렇게 다음 먼저 다시 바로 하는 하면 해서 했던 했는데 했습니다 됩니다 합니다 있습니다 같습니다 이것 저것 지금 아직 역시 모든 여러 직접 보고 싶은 싶다 입니다 입니다만 하기 되어 되는 않는 없이 하나 두개 합니다만 시작 이후 이전 했어요 있어요 같아요 좋아요 했지만 했던 했던것 되는지'.split())
 
-
-STOP.update('후기 진짜 요즘 그래도 여기 저기 거기 사실 결국 때문 이거 그거 저거 나중 대충 가장 많이 이런 그런 저런 어떤 같은 같고 같아서 같음 아마 일단 지난 내일 어제 시간 오랜만 오래 원래 무엇 어디 아니 내가하면 있으면 없으면 했으니 때문에 중간 생각보다 오히려 덕분 조금씩 갑자기 처음 오늘도 그렇게까지 해야 할수있다 되니까 살짝 너무나 역시나 아무튼 아무래도 보니까 그러면 그렇지만 그런데 그러니까 그렇고 거예요 거야 하니까 했더니 아니라'.split())
+STOP = set('오늘 이번 이야기 얘기 기록 블로그 포스팅 사진 경우 정도 생각 다음 지금 시작 이후 이전 고민 후기 요즘 사실 나중 시간 내일 어제 중간 처음 오랜만 원래 진짜 조금 직접 결국 일단 대충 아래 이유'.split())
 
 
 def _noun_terms(text):
@@ -16,7 +14,7 @@ def _noun_terms(text):
     global _tokenizer
     if not text:
         return []
-    if _tokenizer is None:
+    if _tokenizer is None:  
         with _tokenizer_lock:
             if _tokenizer is None:
                 from kiwipiepy import Kiwi
