@@ -5,11 +5,18 @@
 현재는 로컬 환경에서 실행하는 프로토타입이며, 외부 웹 검색 기능은 준비 중입니다.  
 
 ## 실행 화면
-<img width="452" height="439" alt="HOME" src="https://github.com/user-attachments/assets/44e3e9cb-4519-4d53-9e88-5d656175356c" />
-<img width="453" height="439" alt="choice" src="https://github.com/user-attachments/assets/5c3ccd22-cab4-4cfd-a11d-df3060c38d98" />
-<img width="452" height="439" alt="blogsearch" src="https://github.com/user-attachments/assets/b7ed8aaf-994e-431b-a000-1501960b89cf" />
-<img width="453" height="439" alt="blogsearch_result" src="https://github.com/user-attachments/assets/9d6e3df6-26d9-4ed4-a2da-ecc7d0c1c354" />
-<img width="452" height="439" alt="websearch" src="https://github.com/user-attachments/assets/c2bf4f9e-4102-4d62-bd8f-7be81b1ec9c1" />
+### 1. 기본 화면
+<img width="450" height="430" alt="HOME" src="https://github.com/user-attachments/assets/17f94771-c383-4a03-9d8b-e1d99289e125" />
+
+### 2. 검색 매체 선택
+<img width="450" height="430" alt="choice" src="https://github.com/user-attachments/assets/fdcce62f-c3e3-4f26-b349-284873d3bfdf" />
+
+### 3. 블로그 검색과 결과
+<img width="450" height="430" alt="blogsearch" src="https://github.com/user-attachments/assets/386f9762-77c3-4583-9767-cb623fb38e1c" />
+<img width="450" height="430" alt="blogsearch_result" src="https://github.com/user-attachments/assets/49ff33fd-75f2-4aaf-ab7e-1a48d4f6c298" />
+
+### 4. 웹 검색 화면(사용 불가)
+<img width="450" height="430" alt="websearch" src="https://github.com/user-attachments/assets/70be5098-57e7-487b-bee8-c7137f20a020" />
 
 ※ 위 실행 화면은 제작자 본인의 네이버 블로그 공개글을 활용한 시연입니다.
 
